@@ -46,7 +46,7 @@ data, and program R is beneficial.
 ### Course Materials
 
 All course materials will be distributed via email or in the course
-repository on Github: <https://github.com/stevemidway/DAR-2022>
+repository on Github: <https://github.com/stevemidway/DAR>
 
 Lecture notes and materials will not be posted in the same form as presented in class; however, the companion book for the course will have reference information for nearly all of the lectures and materials can be added upon request. Access the companion text here:  <https://bookdown.org/steve_midway/DAR/>
 
@@ -215,39 +215,39 @@ modifications to the topics as the course materials develop, and we will
 devote varying amounts of time to each topic, based on interest and
 capacity.
 
-| Date     | Topic                                      | Space        |
-| :------- | :----------------------------------------- | ------------ |
-| W Jan 19 | Course Introduction                        | ECE 1070     |
-| M Jan 24 | Logic of Science                           | Auditorium   | 
-| W Jan 26 | Overview of R, Part I                      | Auditorium   | 
-| M Jan 31 | Overview of R, Part II                     | Auditorium   | 
-| W Feb 2  | Principles of Data                         | Auditorium   | 
-| M Feb 7  | Data Management (w/ Carol Morel)           | Auditorium   | 
-| W Feb 9  | Databases, Github, and Markdown            | Auditorium   | 
-| M Feb 14 | Off (Midway at Conference)                 | Auditorium   | 
-| W Feb 16 | Exploratory Data Analysis                  | Auditorium   | 
-| M Feb 21 | Basics of `ggplot`                         | ECE 1070     |
-| W Feb 23 | Models vs. Estimation                      | ECE 1070     |
-| M Feb 28 | Off (Mardi Gras)                           |              |
-| W Mar 2  | Off (Mardi Gras)                           |              |
-| M Mar 7  | Anatomy of a Linear Model                  | Auditorium   | 
-| W Mar 9  | General Linear Models                      | Auditorium   | 
-| M Mar 14 | Off (Spring Break)                         |              | 
-| W Mar 16 | Off (Spring Break)                         |              | 
-| M Mar 21 | GLMs, Part I                               | Auditorium   |
-| W Mar 23 | GLMs, Part II                              | Auditorium   |
-| M Mar 28 | Random Effects and Mixed Models, Part I    | Auditorium   | 
-| W Mar 30 | Off (Midway hosting Conference)            |              | 
-| M Apr 4  | Random Effects and Mixed Models, Part II   | Auditorium   | 
-| W Apr 6  | Model Selection                            | Auditorium   |
-| M Apr 11 | Infographics                               | Zoom         | 
-| W Apr 13 | Mapping/Spatial Data (w/ Matt Robertson)   | Zoom         | 
-| M Apr 18 | Visualization, Part I                      | Auditorium   | 
-| W Apr 20 | Visualization, Part II                     | Auditorium   |
-| M Apr 25 | Big Data                                   | Auditorium   | 
-| W Apr 27 | ?                                          | Auditorium   | 
-| M May 2  | Team Science                               | Auditorium   | 
-| W May 4  | Infographics Presentations                 | Auditorium   | 
+| Date     | Topic                                      
+| :------- | :-----------------------------------------
+| W Jan 18 | Course Introduction                        
+| M Jan 23 | Logic of Science                          
+| W Jan 25 | Overview of R, Part I                      
+| M Jan 30 | Overview of R, Part II                     
+| W Feb 1  | Principles of Data                         
+| M Feb 6  | Data Management (w/ Carol Morel?)           
+| W Feb 8  | Databases, Github, and Markdown            
+| M Feb 13 | Exploratory Data Analysis                 
+| W Feb 15 | Basics of `ggplot`                   
+| M Feb 20 | Off (Mardi Gras)                         
+| W Feb 22 | Off (Mardi Gras)                     
+| M Feb 27 | Models vs. Estimation                           
+| W Mar 1  | TBD: Amberjack meeting                          
+| M Mar 6  | Anatomy of a Linear Model                
+| W Mar 8  | General Linear Models                     
+| M Mar 13 | Off (Spring Break)                         
+| W Mar 15 | Off (Spring Break)                        
+| M Mar 20 | GLMs, Part I                               
+| W Mar 22 | GLMs, Part II                              
+| M Mar 27 | Off (Midway at Conference)    
+| W Mar 39 | Off (Midway at Conference)            
+| M Apr 3  | Random Effects and Mixed Models, Part I R   
+| W Apr 5  | andom Effects and Mixed Models, Part II                            
+| M Apr 10 | Model Selection (Virtual?)                                
+| W Apr 12 | Mapping/Spatial Data (w/ Matt Robertson)   
+| M Apr 17 | Infographics                      
+| W Apr 19 | Visualization, Part I                   
+| M Apr 24 | Visualization, Part I                                 
+| W Apr 26 | Big Data                                            
+| M May 1  | Team Science                               
+| W May 3  | Infographics Presentations                 
 
 
 

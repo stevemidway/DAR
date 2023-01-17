@@ -226,20 +226,20 @@ capacity.
 | W Feb 8  | Databases, Github, and Markdown            
 | M Feb 13 | Exploratory Data Analysis                 
 | W Feb 15 | Basics of `ggplot`                   
-| M Feb 20 | Off (Mardi Gras)                         
-| W Feb 22 | Off (Mardi Gras)                     
+| M Feb 20 | *Off (Mardi Gras)*                         
+| W Feb 22 | *Off (Mardi Gras)*                     
 | M Feb 27 | Models vs. Estimation                           
 | W Mar 1  | TBD: Amberjack meeting                          
 | M Mar 6  | Anatomy of a Linear Model                
 | W Mar 8  | General Linear Models                     
-| M Mar 13 | Off (Spring Break)                         
-| W Mar 15 | Off (Spring Break)                        
+| M Mar 13 | *Off (Spring Break)*                         
+| W Mar 15 | *Off (Spring Break)*                        
 | M Mar 20 | GLMs, Part I                               
 | W Mar 22 | GLMs, Part II                              
-| M Mar 27 | Off (Midway at Conference)    
-| W Mar 39 | Off (Midway at Conference)            
-| M Apr 3  | Random Effects and Mixed Models, Part I R   
-| W Apr 5  | andom Effects and Mixed Models, Part II                            
+| M Mar 27 | *Off (Midway at Conference)*    
+| W Mar 29 | *Off (Midway at Conference)*            
+| M Apr 3  | Random Effects and Mixed Models, Part I  
+| W Apr 5  | Random Effects and Mixed Models, Part II                            
 | M Apr 10 | Model Selection (Virtual?)                                
 | W Apr 12 | Mapping/Spatial Data (w/ Matt Robertson)   
 | M Apr 17 | Infographics                      

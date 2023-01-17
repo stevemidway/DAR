@@ -238,8 +238,13 @@ capacity.
 | W Mar 22 | GLMs, Part II                              
 | M Mar 27 | *Off (Midway at Conference)*    
 | W Mar 29 | *Off (Midway at Conference)*            
+<<<<<<< HEAD
 | M Apr 3  | Random Effects and Mixed Models, Part I  
 | W Apr 5  | Random Effects and Mixed Models, Part II                            
+=======
+| M Apr 3  | Random Effects and Mixed Models, Part I R   
+| W Apr 5  | andom Effects and Mixed Models, Part II                            
+>>>>>>> 6264eea2f2f82396435419f5401b4a56c72b37ce
 | M Apr 10 | Model Selection (Virtual?)                                
 | W Apr 12 | Mapping/Spatial Data (w/ Matt Robertson)   
 | M Apr 17 | Infographics                      

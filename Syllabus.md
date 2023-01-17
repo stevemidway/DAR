@@ -5,7 +5,7 @@ Spring 2023
 
 ### Course Information
 
-Spring 2022
+Spring 2022\
 OCS 7313
 Dr. Steve Midway, <smidway@lsu.edu>  
 Office: ECE 2257

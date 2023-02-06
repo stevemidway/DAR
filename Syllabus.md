@@ -220,10 +220,10 @@ capacity.
 | W Jan 18 | Course Introduction                        
 | M Jan 23 | Logic of Science                          
 | W Jan 25 | Overview of R, Part I                      
-| M Jan 30 | Overview of R, Part II                     
-| W Feb 1  | Principles of Data                         
-| M Feb 6  | Data Management (w/ Carol Morel?)           
-| W Feb 8  | Databases, Github, and Markdown            
+| M Jan 30 | *Class Canceled (Weather)*                      
+| W Feb 1  | Data Management (w/ [Carol Morel] (https://lsu.zoom.us/rec/share/wEGnUAy8P51sWTvj9devuBEQyyHBIQpBCikpWMcHEnVRDwOcZBzjby795cO3fxyu.ITnT96r5eJ6KsXN))                 
+| M Feb 6  | Overview of R, Part II           
+| W Feb 8  | Principles of Data; Databases, Github, and Markdown
 | M Feb 13 | Exploratory Data Analysis                 
 | W Feb 15 | Basics of `ggplot`                   
 | M Feb 20 | *Off (Mardi Gras)*                         

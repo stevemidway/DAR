@@ -221,7 +221,7 @@ capacity.
 | M Jan 23 | Logic of Science                          
 | W Jan 25 | Overview of R, Part I                      
 | M Jan 30 | *Class Canceled (Weather)*                      
-| W Feb 1  | Data Management (w/ [Carol Morel](https://lsu.zoom.us/rec/share/wEGnUAy8P51sWTvj9devuBEQyyHBIQpBCikpWMcHEnVRDwOcZBzjby795cO3fxyu.ITnT96r5eJ6KsXN))                 
+| W Feb 1  | Data Management (w/ [Carol Morel](https://lsu.zoom.us/rec/play/fedLfnrKeNqfSD0-PDEHOKzaaAAjXXxCOf6M7HbiO0UNOBOgccYQ8ZFsGvmM1CIhsMI3W-yByou0lySY.fqTOmPuH8fAFwK21?continueMode=true&_x_zm_rtaid=c0R3jUgERcGCUo0E6Sv5Ig.1676174268585.7f844ad39fc1aaea941fd4b239d11892&_x_zm_rhtaid=731))                 
 | M Feb 6  | Overview of R, Part II           
 | W Feb 8  | Principles of Data; Databases, Github, and Markdown
 | M Feb 13 | Exploratory Data Analysis                 

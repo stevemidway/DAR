@@ -39,6 +39,13 @@ Year2020 <- rpois(n = 9, lambda = 7)
 wide.df <- as.data.frame(cbind(Species, Year2017, Year2018, Year2019, Year2020))
 ```
 
+``` r
+long.df <- wide.df %>% 
+  pivot_longer(c(Year2017, Year2018, Year2019, Year2020), 
+               names_to = "Year", 
+               values_to = "Counts")
+```
+
 2.  The `stringr` library has a lot of good functions for dealing with
     strings, which are defined as any values that are bound by single or
     double quotations. The `str_sub()` function is useful for modifying
@@ -49,17 +56,32 @@ wide.df <- as.data.frame(cbind(Species, Year2017, Year2018, Year2019, Year2020))
     `str_sub()` function to remove the term `Year` from data in the
     `Year` column.
 
+``` r
+long.df$Year.no <- as.numeric(str_sub(long.df$Year,-4,-1))
+```
+
 3.  We discussed `dplyr` in class and reviewed some of its functions.
     Continuing with the dataframe in this exercise, use the
     `summarise()` function to report the mean number of each `species`
     for each `Year`. You may want to consider the `group_by()` function
     as well.
 
+``` r
+long.df.g <- long.df %>% 
+  group_by(Year.no, Species) %>%
+  summarise(mean(as.numeric(Counts)))
+```
+
 4.  Finally, `ggplot` is the well known `tidyverse` package for
     plotting. Consider an appropriate plot type to show species `Counts`
     plotted against `Year`. Add some information, like color or shape,
     to indicate specific species. You are welcome to play with other
     `ggplot` themes, aesthetics, etc.
+
+``` r
+p <- ggplot(long.df, aes(as.numeric(Year.no), as.numeric(Counts), color=Species))
+p + geom_point(size = 3) + theme_classic(base_size = 15)
+```
 
 **To complete this Exercise, please answer all questions showing code
 and appropriate output. I don’t have to see everything (code and output)

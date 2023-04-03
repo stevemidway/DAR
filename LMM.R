@@ -104,37 +104,37 @@ params <- as.data.frame(coef(mm3)$species)
 params$RIntonly <- coef(mm1)$species[,1]
 params$RSlonly <- coef(mm2)$species[,2]
 
-colnames(params) <- c("R.int","R.sl","MM.int","MM.sl")
+colnames(params) <- c("REM.int","REM.sl","RIntonly","RSntonly")
 
 library(patchwork)
-r.int <- ggplot(params) +
-        geom_histogram(aes(x = R.int), binwidth = 0.5, 
+REM.int <- ggplot(params) +
+        geom_histogram(aes(x = REM.int), binwidth = 0.5, 
                        col = "white", fill = "darkblue") +
         xlim(0,15) +
         theme_classic(base_size = 15) +
         ggtitle("Random Intercepts (w/ Random Slopes)")
 
-mm.int <- ggplot(params) +
-        geom_histogram(aes(x = MM.int), binwidth = 0.5, 
+RIntonly <- ggplot(params) +
+        geom_histogram(aes(x = RIntonly), binwidth = 0.5, 
                        col = "white", fill = "darkred") +
         xlim(0,15) +
         theme_classic(base_size = 15) +
         ggtitle("Random Intercepts (w/ Fixed Slopes)")
 
-r.sl <- ggplot(params) +
-        geom_histogram(aes(x = R.sl), binwidth = 0.25, 
+REM.sl <- ggplot(params) +
+        geom_histogram(aes(x = REM.sl), binwidth = 0.25, 
                        col = "white", fill = "darkblue") +
         xlim(-3,0) +
         theme_classic(base_size = 15) +
         ggtitle("Random Slopes (w/ Random Intercepts)")
 
-mm.sl <- ggplot(params) +
-        geom_histogram(aes(x = MM.sl), binwidth = 0.25, 
+RSntonly <- ggplot(params) +
+        geom_histogram(aes(x = RSntonly), binwidth = 0.25, 
                        col = "white", fill = "darkred") +
         xlim(-3,0) +
         theme_classic(base_size = 15) +
         ggtitle("Random Slopes (w/ Fixed Intercepts)")
 
-(r.int / mm.int) | (r.sl / mm.sl)
+(RIntonly / REM.int) | (RSntonly / REM.sl)
 
 

@@ -239,9 +239,9 @@ capacity.
 | M Mar 27 | *Off (Midway at Conference)*    
 | W Mar 29 | *Off (Midway at Conference)*            
 | M Apr 3  | Random Effects and Mixed Models, Part I  
-| W Apr 5  | Random Effects and Mixed Models, Part II                            
-| M Apr 10 | Model Selection (Virtual?)                                
-| W Apr 12 | Mapping/Spatial Data (w/ Matt Robertson)   
+| W Apr 5  | Random Effects and Mixed Models, Part II                      
+| M Apr 10 | Model Selection ([Virtual](https://lsu.zoom.us/rec/share/GMcJynikjDEvfVBDMMlMn4yJeAVzNYe4vB-lhvDFjImMQ9uMIrdi6y1r2jRx7nLM.2W2W2PwWx1PE1aEb))                          
+| W Apr 12 | Mapping/Spatial Data (w/ [Matt Robertson](https://lsu.zoom.us/rec/share/1uGtp9MLl3XsXGTI8W8I3s2N-6GGQL_UQXoAAqgUDTq1Ierj5E9c3qag2SVXNSMC.9sJTugCuX1gYHSzY))   
 | M Apr 17 | Infographics                      
 | W Apr 19 | Visualization, Part I                   
 | M Apr 24 | Visualization, Part I                                 

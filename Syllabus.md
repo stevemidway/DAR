@@ -1,15 +1,15 @@
 Data Analysis in R  
 Syllabus
 ================
-Spring 2023
+Spring 2024
 
 ### Course Information
 
-Spring 2022 \
+Spring 2024 \
 OCS 7313 \
 Dr. Steve Midway, <smidway@lsu.edu> \
 Office: ECE 2257 \
-Monday and Wednesday 9–10:20am, ECE 1070 \
+Tuesday / Thursday 9–10:20am, ECE 3178 \
 Credit Hours: 3
 
 Zoom: <https://lsu.zoom.us/j/8249531601>

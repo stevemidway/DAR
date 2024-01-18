@@ -19,7 +19,8 @@
 
 # RStudio files
 .Rproj.user/
-.Assignment_1.md
+.Assignment_1.md/
+.Assignment_1.Rmd/
 
 # produced vignettes
 vignettes/*.html

@@ -1,5 +1,5 @@
 Data Analysis in R \
-Syllabus Spring 2024 \
+Syllabus Spring 2024 
 
 ### Course Information
 

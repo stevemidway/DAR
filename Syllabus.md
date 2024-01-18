@@ -10,6 +10,7 @@ OCS 7313 \
 Dr. Steve Midway, <smidway@lsu.edu> \
 Office: ECE 2257 \
 Tuesday / Thursday 9–10:20am, ECE 3178 \
+Lab Section Thursday 10:30-11:20am, ECE 3178 \
 Credit Hours: 3
 
 Zoom: <https://lsu.zoom.us/j/8249531601>

@@ -1,4 +1,4 @@
-Exercise 1: Basics in R
+Lab 1: Basics in R
 ================
 DAR Lab
 Spring 2024

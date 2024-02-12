@@ -122,7 +122,7 @@ The following topics are approximately in the order we will cover them as many a
 | Th Jan 25 | Overview of R (Part I)      |
 | Tu Jan 30 | Overview of R (Part II)     |
 | Th Feb 1  | *No class (Midway Away)*      |                                                                       
-| Tu Feb 6  | Data Management (w/ [Carol Morel]? |
+| Tu Feb 6  | Data Management w/ [Carol Morel](https://lsu.zoom.us/rec/share/_wekI0NItHyQv5PZeoDCLEGseC9bBDSx-XJHqzFHpyDHgbNVGriSuqSSFLZd1PAa.CI5oxAcBAyJhLGZ-?startTime=1707231920000) |
 | Th Feb 8  | Principles of Data; Databases, Github, and Markdown  |
 | Tu Feb 13 | *Off (Mardi Gras)*       |
 | Th Feb 15 | Exploratory Data Analysis   |

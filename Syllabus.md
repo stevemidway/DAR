@@ -112,7 +112,7 @@ You are expected to bring a laptop to class. Although there may be days we do no
 
 ### Calendar of Material
 
-The following topics are approximately in the order we will cover them as many are concepts that will build on previous work. We may make modifications to the topics as the course materials develop, and we will devote varying amounts of time to each topic, based on interest and capacity.
+The following topics are approximately in the order we will cover them as many are concepts that will build on previous work. We may make modifications to the topics as the course materials develop, and we will devote varying amounts of time to each topic, based on interest and capacity. 
 
 | Date     | Topic                                                                                                                                                                                                                                                                                   |
 |:---------------|:-------------------------------------------------------|

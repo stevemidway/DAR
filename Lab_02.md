@@ -82,5 +82,5 @@ more exhaustive list.
 ### Your assignment
 
 Take your work from Exercise 1 and compile it in an R Markdown document
-that outputs to HTML. Please upload the html file to Box by Thursday,
-February 15th.
+that outputs to HTML. Please upload to Moodle **5pm Thursday, February
+15 2024**.

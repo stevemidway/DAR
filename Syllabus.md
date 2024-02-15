@@ -61,13 +61,11 @@ You are expected to bring a laptop to class. Although there may be days we do no
 
 -   **Statistical Modeling (20%)**: Each student will complete a 10 question assignment that will focus on modeling (in R) marine science data and rely on generalized linear models and other techniques covered in lecture. Code and writeup will be produced.
 
--   **Literature Review (10%)**: Each student will produce a 1-page literature review on the data analytical aspects of a paper in a marine science journal. The critique will evaluate the methods (to the extent they discuss data collection), the analytical techniques used, and the presentation (visualization) of the data and results.
+-   **Methods (15%)**: Each student will produce a Methods sections on the data analysis they plan to undertake for their final research paper. Traditionally, the Methods section was only included in the final assignment, but is now an independent assignment so that it can be focused on separate from the Results, and feedback can be provided for improvement. 
 
 -   **Infographic (15%)**: Each student will produce 1 infographic on a science topics of their choosing (i.e., it could be your own research and a topic you are unfamiliar with but would like to learn about).
 
--   **Research Paper or Website (25%)**: Each student will produce either a research paper or website that takes marine science data, analyzes it, presents (visualizes) it, and discusses the findings. Data may be used from existing research projects outside of class. Code and writeup will be produced. All full assignment description will be made available and may stipulate one assignment over the other.
-
--   **Participation/Activity (5%)**: Each student will be evaluated based on their participation in class. This is not intended to necessarily evaluate performance, but to encourage group discussion, questions, and other aspects of classroom activity.
+-   **Final Analysis (25%)**: Each student will produce either a Methods and Results section representing an analysis they have undertaken. Data may be used from existing research projects outside of class. Code and writeup will be produced. The Methods section should be based on the previous assignment.
 
 **Each graded assignment will have its own guidelines contained in a separate document.**
 

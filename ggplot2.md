@@ -418,7 +418,7 @@ ggplot(data = ChinookArg) +
 - Here, we are adding the specified color *inside* the mapping argument
   as a scale
 - If inside the mapping, it needs to “map” to a variable; either **call
-  an existing variable ** or it will map to your data
+  an existing variable** or it will map to your data
 - A legend is also automatically added
 
 ``` r

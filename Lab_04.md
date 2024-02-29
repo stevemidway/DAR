@@ -17,9 +17,20 @@ found at that website.
 You can load all the tidyverse packages with the following commands:
 
 ``` r
-install.packages("tidyverse")
+#install.packages("tidyverse")
 library(tidyverse)
 ```
+
+    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+    ## ✔ dplyr     1.1.3     ✔ readr     2.1.4
+    ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
+    ## ✔ ggplot2   3.4.4     ✔ tibble    3.2.1
+    ## ✔ lubridate 1.9.3     ✔ tidyr     1.3.0
+    ## ✔ purrr     1.0.2     
+    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ✖ dplyr::filter() masks stats::filter()
+    ## ✖ dplyr::lag()    masks stats::lag()
+    ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 
 1.  `tidyr` is a useful package for manipulating large dataframes into
     more usable formats. Consider the dataset created below. That
@@ -37,7 +48,34 @@ Year2018 <- rpois(n = 9, lambda = 3)
 Year2019 <- rpois(n = 9, lambda = 5)
 Year2020 <- rpois(n = 9, lambda = 7)
 wide.df <- as.data.frame(cbind(Species, Year2017, Year2018, Year2019, Year2020))
+head(wide.df)
 ```
+
+    ##   Species Year2017 Year2018 Year2019 Year2020
+    ## 1       A        1        1        6       13
+    ## 2       A        0        2        2        9
+    ## 3       A        1        3        9        7
+    ## 4       B        0        1        7        3
+    ## 5       B        2        4        5       10
+    ## 6       B        0        3        4        8
+
+``` r
+long.df <- wide.df %>% 
+  pivot_longer(c(Year2017, Year2018, Year2019, Year2020), 
+               names_to = "Year", 
+               values_to = "Counts")
+head(long.df)
+```
+
+    ## # A tibble: 6 × 3
+    ##   Species Year     Counts
+    ##   <chr>   <chr>    <chr> 
+    ## 1 A       Year2017 1     
+    ## 2 A       Year2018 1     
+    ## 3 A       Year2019 6     
+    ## 4 A       Year2020 13    
+    ## 5 A       Year2017 0     
+    ## 6 A       Year2018 2
 
 2.  The `stringr` library has a lot of good functions for dealing with
     strings, which are defined as any values that are bound by single or
@@ -49,17 +87,55 @@ wide.df <- as.data.frame(cbind(Species, Year2017, Year2018, Year2019, Year2020))
     `str_sub()` function to remove the term `Year` from data in the
     `Year` column.
 
+``` r
+long.df$Year.no <- as.numeric(str_sub(long.df$Year,-4,-1))
+head(long.df$Year.no)
+```
+
+    ## [1] 2017 2018 2019 2020 2017 2018
+
 3.  We discussed `dplyr` in class and reviewed some of its functions.
     Continuing with the dataframe in this exercise, use the
     `summarise()` function to report the mean number of each `species`
     for each `Year`. You may want to consider the `group_by()` function
     as well.
 
+``` r
+long.df.g <- long.df %>% 
+  group_by(Year.no, Species) %>%
+  summarise(yrct = mean(as.numeric(Counts)))
+```
+
+    ## `summarise()` has grouped output by 'Year.no'. You can override using the
+    ## `.groups` argument.
+
+``` r
+head(long.df.g)
+```
+
+    ## # A tibble: 6 × 3
+    ## # Groups:   Year.no [2]
+    ##   Year.no Species  yrct
+    ##     <dbl> <chr>   <dbl>
+    ## 1    2017 A       0.667
+    ## 2    2017 B       0.667
+    ## 3    2017 C       1.33 
+    ## 4    2018 A       2    
+    ## 5    2018 B       2.67 
+    ## 6    2018 C       3.67
+
 4.  Finally, `ggplot` is the well known `tidyverse` package for
     plotting. Consider an appropriate plot type to show species `Counts`
     plotted against `Year`. Add some information, like color or shape,
     to indicate specific species. You are welcome to play with other
     `ggplot` themes, aesthetics, etc.
+
+``` r
+p <- ggplot(long.df, aes(as.numeric(Year.no), as.numeric(Counts), color=Species))
+p + geom_jitter(size = 3, alpha = 0.5) + theme_classic(base_size = 15)
+```
+
+![](Lab_04_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 **To complete this Exercise, please answer all questions showing code
 and appropriate output. I don’t have to see everything (code and output)

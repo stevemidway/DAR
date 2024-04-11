@@ -49,4 +49,4 @@ and not worry about document length.**
 You are encouraged to use MS Word due to the familiarity most of you
 have and the control over which you can format the contents; however,
 you are allowed to use Markdown or anything else you prefer. **Please
-upload your document to Moodle by Friday, May 3, 2024.**
+upload your document to Moodle by 5pm Friday, May 3, 2024.**

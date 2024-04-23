@@ -142,5 +142,7 @@ The following topics are approximately in the order we will cover them as many a
 | Th Apr 11 | Visualization, Part II         |
 | Tu Apr 16 | Big Data       |
 | Th Apr 18 | Team Science         |
-| Tu Apr 23 | FLEX       |
-| Th Apr 25 | Infographics Presentations         |
+| Tu Apr 23 | Non-linear models       |
+| Th Apr 25 | Statistical Reporting         |
+| Tu Apr 30 | Inforgraphic Presentations       |
+| Th May 2  | Inforgraphic Presentations       |

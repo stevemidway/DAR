@@ -75,7 +75,7 @@ chunk. Also, eval=FALSE tells R not to compile any of the code in that
 code chunk. This may sound counterintuitive, but perhaps you want to
 show some code that you used, but for whatever reason did not want to
 actually run it at that point in the document. See the [R Markdown Cheat
-Sheet](https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+Sheet](https://rstudio.github.io/cheatsheets/rmarkdown.pdf)
 for other code chunk options, and also feel free to use Google for a
 more exhaustive list.
 

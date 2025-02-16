@@ -33,8 +33,9 @@ the figures below.*
     label the points as shown below. (Note that when labeled in this way
     you don’t have total control over the placement of the labels, so
     the labels are one thing you don’t need to worry about recreating
-    exactly. )
-    ![](Lab_Exercise_3_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+    exactly.)
+
+![](Lab_Exercise_3_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 ### Your Assignment
 

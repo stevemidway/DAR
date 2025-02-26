@@ -31,13 +31,13 @@ possible given your data.
 
 | Response Type | Predictor Type | Model Name | R Syntax |
 |:--:|:--:|:--:|:--:|
-| Continuous | Continuous | Simple Linear Regression | `lm(y   ~ x, data = df)` |
-| Continuous | Continuous (2+ variables) | Multiple Linear Regression | `lm(y   ~ x1 + x2, data = df)` |
-| Continuous | Categorical (2 groups) | *t*-test | `t.test(y   ~ group, data = df)` |
-| Continuous | Categorical (3+ groups) | ANOVA | `aov(y   ~ factor, data = df)` |
-| Count | Continuous, Categorical | Poisson Regression (GLM) | `glm(y   ~ x, family = poisson,   data = df)` |
-| Binary (0/1) | Continuous, Categorical | Binomial (Logistic) Regression (GLM) | `glm(y   ~ x, family = binomial, data = df)` |
-| Interval (0 to 1) | Continuous, Categorical | Beta Regression | `betareg(y   ~ x, data = df)` |
+| Continuous | Continuous | Simple Linear Regression | `lm(y ~ x, data = df)` |
+| Continuous | Continuous (2+ variables) | Multiple Linear Regression | `lm(y ~ x1 + x2, data = df)` |
+| Continuous | Categorical (2 groups) | *t*-test | `t.test(y ~ group, data = df)` |
+| Continuous | Categorical (3+ groups) | ANOVA | `aov(y ~ factor, data = df)` |
+| Count | Continuous, Categorical | Poisson Regression (GLM) | `glm(y ~ x, family = poisson, data = df)` |
+| Binary (0/1) | Continuous, Categorical | Binomial (Logistic) Regression (GLM) | `glm(y ~ x, family = binomial, data = df)` |
+| Interval (0 to 1) | Continuous, Categorical | Beta Regression | `betareg(y ~ x, data = df)` |
 
 ## Visuals
 

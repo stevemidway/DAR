@@ -144,7 +144,7 @@ ggplot(BirdNest, aes(x = Length, y = No.eggs.i)) +
               method.args = list(family = "poisson")) +
   labs(y = "No of eggs",
        caption = "Poisson GLM") +
-  theme_classic(base_size = 25)
+  theme_classic(base_size = 15)
 
 # Intercept: e^1.928
 exp(1.928)

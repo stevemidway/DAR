@@ -6,7 +6,7 @@ Spring 2025
 This exercise will provide you practice in fitting and interpreting a
 random effects model. The model you need to create using hurricane winds
 to predict human deaths, with a random effect for decade in which the
-storm occured.
+storm occurred.
 
 In terms of a hypothesis, on one hand we might expect deaths to decrease
 by decade because hurricane forecasting is better and we have many more
@@ -41,7 +41,7 @@ factor (even if you create it as a number, which is fine).
 Fit the model as described above. `LF.WindsMPH` is the predictor and
 `deaths` is the response. Note that deaths should probably be modeled
 with Poisson response, but for this case we will use a normal
-distribtion so we can use `lmer`. (But you are welcome to try other
+distribution so we can use `lmer`. (But you are welcome to try other
 libraries that model random effects in a generalized linear framework.)
 Add the new `decade` variable for a random intercept and random slope.
 
